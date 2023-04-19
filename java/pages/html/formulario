@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3 - HTML</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <fieldset>
+                <h1>Formularios</h1>
+                <form method="POST" enctype="multipart/form-data" action="html-semantico html">
+                    <div>
+                        <label for="nombre"> Nombre:</label>
+                        <input name="nombre" id="nombre" type="text" maxlength="50" required />
+                    </div>
+                    <div>
+                        <label for="apellido"> Apellido:</label>
+                        <input name="apellido" id="apellido" type="text" maxlength="50" required />
+                    </div>
+
+                    <div>
+                        <label> Fecha de Nac:</label>
+                        <input type="date">
+                    </div>
+
+                    <div>
+                        <label for="comision"> Comision:</label>
+                        <input name="comision" id="comision" type="number" required />
+                    </div>
+
+                    <div>
+                        <label for="Nacionalidad"> Nacionalidad:</label>
+                        <select name="nac">
+                            <option></option>
+                            <option value="AR">Argentina</option>
+                            <option value="BR">Brazil</option>
+                            <option value="CHI">Chile</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Habla Ingles?</label>
+                        <input type="radio" name="hablaIngles" value="SI">
+                        SI
+                        <input type="radio" name="hablaIngles" value="No">
+                        NO
+                    </div>
+
+                    <div>
+                        <label for="">Intereses:</label>
+                        <input type="checkbox" name="Intereses" value="futbol">
+                        Futbol
+                        <input type="checkbox" name="Intereses" value="musica">
+                        Musica
+                        <input type="checkbox" name="Intereses" value="programacion">
+                        Programacion
+                    </div>
+
+                    <div>
+                        <label>Avatar:</label>
+                        <div><input type="file" name="avatar">
+                        </div>
+
+
+                    </div>
+
+                    <div>
+                        <button>
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Otros tags</legend>
+                <form>
+                    <input type="claveUnica" type="hidden" value="123456" id="claveUnica">
+                    <div>
+                        <label for="search"></label>
+                        <input type="search" id="search " type="search">
+                        <button>Buscar</button>
+                    </div>
+                </form>
+
+            </fieldset>
+        </section>
+    </main>
+</body>
+
+</html>

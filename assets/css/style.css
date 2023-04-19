@@ -1,0 +1,8 @@
+/*ACA SOLO ESCRIBIMOS CODIGO CSS*/
+h1 {
+    color: blueviolet;
+}
+.container{
+    border: 1px solid red;
+    text-align: center;
+}
